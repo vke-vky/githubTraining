@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To valid mobile number",
+        "description": "",
+        "id": "to-validate-then-signin-functionality-of-amazon-aplication;to-valid-mobile-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81611756800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the chrome browser and maximize window",
+            "match": {
+              "location": "Amazonsignin.to_launch_the_chrome_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38604318400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url of the amazon application",
+            "match": {
+              "location": "Amazonsignin.to_launch_the_url_of_the_amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46718903600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass valid email or mobile number in email field",
+            "match": {
+              "location": "Amazonsignin.to_pass_valid_email_or_mobile_number_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5796110700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click the continue button",
+            "match": {
+              "location": "Amazonsignin.to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To check wheather navigate to the home page or not",
+            "match": {
+              "location": "Amazonsignin.to_check_wheather_navigate_to_the_home_page_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3973991500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the browser",
+            "match": {
+              "location": "Amazonsignin.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          }
+        ]
+      }
+    ],
+    "name": "To validate then signin functionality of amazon aplication",
+    "description": "",
+    "id": "to-validate-then-signin-functionality-of-amazon-aplication",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sampleprj.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
